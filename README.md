@@ -21,6 +21,18 @@ To install LuaJIT do this: `haxelib install linc_luajit` on a Command prompt/Pow
 * iFlicky - Delay/Combo Menu Song Composer + Dialogue Sounds
 * PolybiusProxy - .MP4 Loader Extension
 * Keoiki - Note Splash Animations
+
+### Vs Wix Mod Creators
+* Kana - Mod Maker/came up with the mod idea
+* mrnoob - Main Coder/Lead coder
+* Irondog - Charter
+* Scotty2Hotty - Coder, Animator and Vocalist
+* Gon The Ghost - Vocalist
+* Darkvessel - Musican
+* eighty ten - Artist
+* Hiroto - Animator and Artist
+* KamdobGooberBoy - Secondary Coder
+* Matiuru<3 - Vocalist and Artist
 _____________________________________
 
 # Features
