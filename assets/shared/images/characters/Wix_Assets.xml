@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wix_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Wix Down0000" x="10" y="10" width="381" height="637" frameX="-10" frameY="-9" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0001" x="401" y="10" width="381" height="637" frameX="-10" frameY="-9" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0002" x="792" y="10" width="383" height="637" frameX="-8" frameY="-9" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0003" x="1185" y="10" width="383" height="637" frameX="-8" frameY="-9" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0004" x="1578" y="10" width="387" height="642" frameX="-4" frameY="-4" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0005" x="1975" y="10" width="387" height="642" frameX="-4" frameY="-4" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0006" x="2372" y="10" width="389" height="645" frameX="-2" frameY="-1" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0007" x="2771" y="10" width="389" height="645" frameX="-2" frameY="-1" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0008" x="3170" y="10" width="391" height="646" frameX="0" frameY="0" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0009" x="3571" y="10" width="391" height="646" frameX="0" frameY="0" frameWidth="391" frameHeight="647"/>
+	<SubTexture name="Wix Down0010" x="3972" y="10" width="391" height="647"/>
+	<SubTexture name="Wix Down0011" x="4373" y="10" width="391" height="647"/>
+	<SubTexture name="Wix Idle0000" x="4774" y="10" width="379" height="672" frameX="0" frameY="-1" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0001" x="5163" y="10" width="379" height="672" frameX="0" frameY="-1" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0002" x="5552" y="10" width="378" height="670" frameX="-1" frameY="-3" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0003" x="5940" y="10" width="378" height="670" frameX="-1" frameY="-3" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0004" x="6328" y="10" width="377" height="669" frameX="-2" frameY="-4" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0005" x="6715" y="10" width="377" height="669" frameX="-2" frameY="-4" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0006" x="7102" y="10" width="378" height="670" frameX="-1" frameY="-3" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0007" x="7490" y="10" width="378" height="670" frameX="-1" frameY="-3" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0008" x="10" y="692" width="379" height="672" frameX="0" frameY="-1" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0009" x="399" y="692" width="379" height="672" frameX="0" frameY="-1" frameWidth="379" frameHeight="673"/>
+	<SubTexture name="Wix Idle0010" x="788" y="692" width="379" height="673"/>
+	<SubTexture name="Wix Idle0011" x="1177" y="692" width="379" height="673"/>
+	<SubTexture name="Wix Idle0012" x="1566" y="692" width="379" height="673"/>
+	<SubTexture name="Wix Idle0013" x="1955" y="692" width="379" height="673"/>
+	<SubTexture name="Wix Idle0014" x="2344" y="692" width="379" height="673"/>
+	<SubTexture name="Wix Idle0015" x="2733" y="692" width="379" height="673"/>
+	<SubTexture name="Wix Left0000" x="3122" y="692" width="307" height="687" frameX="-2" frameY="0" frameWidth="310" frameHeight="687"/>
+	<SubTexture name="Wix Left0001" x="3439" y="692" width="307" height="687" frameX="-2" frameY="0" frameWidth="310" frameHeight="687"/>
+	<SubTexture name="Wix Left0002" x="3756" y="692" width="309" height="687" frameX="-1" frameY="0" frameWidth="310" frameHeight="687"/>
+	<SubTexture name="Wix Left0003" x="4075" y="692" width="309" height="687" frameX="-1" frameY="0" frameWidth="310" frameHeight="687"/>
+	<SubTexture name="Wix Left0004" x="4394" y="692" width="310" height="687"/>
+	<SubTexture name="Wix Left0005" x="4714" y="692" width="310" height="687"/>
+	<SubTexture name="Wix Left0006" x="5034" y="692" width="310" height="687"/>
+	<SubTexture name="Wix Left0007" x="5354" y="692" width="310" height="687"/>
+	<SubTexture name="Wix Left0008" x="5674" y="692" width="310" height="687"/>
+	<SubTexture name="Wix Left0009" x="5994" y="692" width="310" height="687"/>
+	<SubTexture name="Wix Right0000" x="6314" y="692" width="476" height="667" frameX="-1" frameY="0" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0001" x="6800" y="692" width="476" height="667" frameX="-1" frameY="0" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0002" x="7286" y="692" width="472" height="667" frameX="0" frameY="0" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0003" x="10" y="1389" width="472" height="667" frameX="0" frameY="0" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0004" x="492" y="1389" width="470" height="667" frameX="0" frameY="0" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0005" x="972" y="1389" width="470" height="667" frameX="0" frameY="0" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0006" x="1452" y="1389" width="469" height="666" frameX="0" frameY="-1" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0007" x="1931" y="1389" width="469" height="666" frameX="0" frameY="-1" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0008" x="2410" y="1389" width="468" height="666" frameX="0" frameY="-1" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0009" x="2888" y="1389" width="468" height="666" frameX="0" frameY="-1" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0010" x="3366" y="1389" width="468" height="666" frameX="0" frameY="-1" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Right0011" x="3844" y="1389" width="468" height="666" frameX="0" frameY="-1" frameWidth="477" frameHeight="667"/>
+	<SubTexture name="Wix Up0000" x="4322" y="1389" width="423" height="686" frameX="0" frameY="0" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0001" x="4755" y="1389" width="423" height="686" frameX="0" frameY="0" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0002" x="5188" y="1389" width="423" height="683" frameX="-2" frameY="-3" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0003" x="5621" y="1389" width="423" height="683" frameX="-2" frameY="-3" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0004" x="6054" y="1389" width="426" height="682" frameX="-4" frameY="-4" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0005" x="6490" y="1389" width="426" height="682" frameX="-4" frameY="-4" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0006" x="6926" y="1389" width="429" height="681" frameX="-7" frameY="-5" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0007" x="7365" y="1389" width="429" height="681" frameX="-7" frameY="-5" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0008" x="10" y="2085" width="429" height="681" frameX="-8" frameY="-5" frameWidth="437" frameHeight="686"/>
+	<SubTexture name="Wix Up0009" x="449" y="2085" width="429" height="681" frameX="-8" frameY="-5" frameWidth="437" frameHeight="686"/>
+</TextureAtlas>

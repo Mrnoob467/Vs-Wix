@@ -98,6 +98,15 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'Melt Note':
+					ignoreNote = mustPress;
+					reloadNote('MELT');
+					noteSplashTexture = 'HURTnoteSplashes'; //Temporary
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					missHealth = 0.1;
+					hitCausesMiss = true;
 				case 'No Animation':
 					noAnimation = true;
 			}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Wix Idle"
+		},
+		{
+			"offsets": [
+				13,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Wix Left"
+		},
+		{
+			"offsets": [
+				-70,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Wix Right"
+		},
+		{
+			"offsets": [
+				36,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Wix Down"
+		},
+		{
+			"offsets": [
+				38,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Wix Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Wix_Assets",
+	"position": [
+		30,
+		70
+	],
+	"healthicon": "wix",
+	"flip_x": false,
+	"healthbar_colors": [
+		152,
+		203,
+		187
+	],
+	"camera_position": [
+		0,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

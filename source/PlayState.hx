@@ -2937,6 +2937,63 @@ class PlayState extends MusicBeatState
 						}
 					});
 				}
+			case 'Change Notes':
+				var toChange:Int = -1;
+
+				switch(value1.toLowerCase()) 
+				{
+					case 'bf' | 'boyfriend':
+						toChange = 1;
+					case 'dad' | 'opponent':
+						toChange = 0;
+					default:
+						toChange = -1;
+				}
+				
+				if (toChange < 0)
+				{
+					SONG.arrowSkin = value2;
+					strumLineNotes.forEach(function(spr:StrumNote)
+					{
+						{
+							spr.reloadNote();
+						}
+					});
+				}
+				else 
+				{
+					switch(toChange)
+					{
+						case 0:
+							for (note in unspawnNotes)
+							{
+								if(!note.mustPress)
+								{
+									note.texture = value2;
+								}
+							}
+							for (i in 0...4)
+							{
+								strumLineNotes.members[i].texture = value2;
+								strumLineNotes.members[i].reloadNote();
+							}
+						case 1:
+							for (note in unspawnNotes)
+							{
+								if(note.mustPress)
+								{
+									note.texture = value2;
+								}
+							}
+							playerStrums.forEach(function(spr:StrumNote)
+							{
+								{
+									spr.texture = value2;
+									spr.reloadNote();
+								}
+							});
+					}	
+				}
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -3753,11 +3810,22 @@ class PlayState extends MusicBeatState
 				}
 
 				switch(note.noteType) {
-					case 'Hurt Note': //Hurt note
+					case 'Hurt Note' | 'Melt Note': //Hurt note
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
 						}
+				}
+				
+				if(note.noteType == 'Melt Note') 
+				{
+					playerStrums.forEach(function(spr:StrumNote)
+					{
+						if (Math.abs(note.noteData) == spr.ID)
+						{
+							FlxTween.tween(spr, {y: spr.y + 20}, 0.75, {ease: FlxEase.expoInOut});
+						}
+					});
 				}
 				
 				note.wasGoodHit = true;
