@@ -2521,12 +2521,11 @@ class PlayState extends MusicBeatState
 				vocals.play();
 			}
 		}
-
+		#end
 		setOnLuas('cameraX', camFollowPos.x);
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', cpuControlled);
 		callOnLuas('onUpdatePost', [elapsed]);
-		#end
 	}
 
 	public var isDead:Bool = false; //Don't mess with this on Lua!!!
@@ -3509,7 +3508,7 @@ class PlayState extends MusicBeatState
 							sortedNotesList.push(daNote);
 							//notesDatas.push(daNote.noteData);
 						}
-						canMiss = true;
+						//canMiss = true; Fuck your anti-spam
 					}
 				});
 				sortedNotesList.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
