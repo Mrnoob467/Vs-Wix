@@ -31,8 +31,9 @@ To install LuaJIT do this: `haxelib install linc_luajit` on a Command prompt/Pow
 * Darkvessel - Musican
 * eighty ten - Artist
 * Hiroto - Animator and Artist
-* KamdobGooberBoy - Secondary Coder
 * Matiuru<3 - Vocalist and Artist
+* Ma-1AJ - Artist
+* Phantom Nathan - Animator
 _____________________________________
 
 # Features
