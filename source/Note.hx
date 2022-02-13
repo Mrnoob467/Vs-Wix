@@ -101,7 +101,7 @@ class Note extends FlxSprite
 				case 'Melt Note':
 					ignoreNote = mustPress;
 					reloadNote('MELT');
-					noteSplashTexture = 'HURTnoteSplashes'; //Temporary
+					noteSplashTexture = 'MELTnoteSplashes'; //Temporary
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
